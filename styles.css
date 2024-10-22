@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.theme-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle label {
+    margin-right: 10px;
+}
+
+.fun-facts {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.fact h2 {
+    font-size: 2em;
+}
+
+.pricing {
+    padding: 20px;
+    text-align: center;
+}
+
+.price-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: #007BFF;
+}
+
+.portfolio {
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.testimonials {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
